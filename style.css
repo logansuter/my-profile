@@ -1,0 +1,106 @@
+body {
+	font-family: 'Caveat', cursive;
+	background-color: #594ff196;
+	color: black;
+	text-align: center;
+	<div style="background-image: url('image/mountain.jpg');">
+	box-sizing: content-box;
+width: 100%;
+font-size: 20px;
+}
+
+h1 {
+	font-weight: Bolder;
+	font-size: 40px;
+	color: black;
+	box-sizing: content-box;
+}
+img {
+	border-radius: 40px;
+	width: 150px;
+	height: 150px;
+
+}
+h2 {
+	font-size: 35px;
+	color: darkgreen;}
+	
+
+ul {
+	list-style: none;
+	padding: 0px;
+}
+
+ul li a{
+	text-decoration: underline, blink;
+	color: darkblue;
+	size:100px;
+	}
+
+.box{
+box-sizing: border-box;
+width: 35%;
+border: solid #5B6DCD 10px;
+padding:10px;
+margin: 45px auto;
+border-radius: 30px;
+background-color: #cfcbcba1;
+box-shadow: 0 10px 30px black;
+}
+.container {
+	width: 700px;
+	margin: 0 auto;
+}
+.btn {
+  border: none 10px;
+  background-color: #5B6DCD;
+  padding: 20px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 20px;
+}
+.btn:hover {background: #eee;}
+
+.btn-linkedin{
+  border: none;
+  background-color:#5b6dcd00;
+  padding:0px;
+  font-size: 60px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0px;
+}
+
+.btn-linkedin:hover {color: #eee;} 
+
+.btn-instagram{
+  border: none;
+  background-color:#5b6dcd00;
+  padding:0px;
+  font-size: 60px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0px;
+}
+
+.btn-instagram:hover {color: #eee;} 
+
+@media (max-width: 1200px) {
+	.container {
+		background: red;
+	} 
+	iframe {max-width: 340px;
+		max-height: 220px;
+	}
+	img{
+		max-height: 120px;
+		max-width: 120px;
+	}
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
